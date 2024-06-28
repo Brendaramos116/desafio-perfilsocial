@@ -18,11 +18,11 @@ Esta é uma solução para o [Desafio de perfil de links sociais no Frontend Men
 
 ### O desafio
 
-    Consiste em contruir um perfil de compartilhamento de links sociais.
+Consiste em contruir um perfil de compartilhamento de links sociais.
+
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ativo: [Adicione o URL do site ativo aqui](https://your-live-site-url.com)
+- URL da solução: [Desafio Perfil Social](https://brendaramos116.github.io/desafio-perfilsocial/)
 
 ## Meu processo
 
