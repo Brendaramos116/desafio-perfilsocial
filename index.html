@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: "Inter" ;
+      src: url(https://fonts.google.com/specimen/Inter);
+      Weight: 400, 600, 700;
+    }
+    body{
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:hsl(0, 0%, 8%) ;
+    }
+    .box{
+      background-color: hsl(0, 0%, 20%);  
+      margin-top: 50px; 
+      padding: 20px;
+      width: 300px;
+      margin-left: 500px;
+      justify-content: center;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);   
+    }
+    .photo{
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1{
+      margin: 0;
+      font-size: 24px;
+    }
+    .p1{
+      color: hsl(75, 94%, 57%);
+      font-size: 14px;
+    }
+    .p2{
+      font-size: 14px;
+      font-style: italic;
+      margin: 10px 0;
+    }
+    .buttons{
+      display: flex;
+      flex-direction: column;
+    }
+    .button{
+      background-color: hsl(0, 0%, 12%);
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin: 5px 0;
+      transition: background-color 0.3s;
+    }
+    .button.github{
+      background-color: hsl(0, 0%, 12%);
+      color:  hsl(0, 0%, 100%);
+    }
+    .button:hover{
+      background-color:  hsl(75, 94%, 57%);
+    }
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="box">
+      <img class="photo" src="./assets/images/BRENDA RAMOS DESENVOLVEDORA JUNIOR (2).JPG">
+      <h1>Brenda Ramos</h1>
+      <p class="p1">Brasil, Brasília</p>
+      <p class="p2">"Desenvolvedora Frontend Júnior."</p>
+        <div class="buttons">
+              <a href="https://github.com/Brendaramos116" class="button github">GitHub</a>
+              <a href="https://frontendmentor.io/profile/Brendaramos116" class="button">Frontend Mentor</a>
+              <a href="https://linkedin.com/in/brendaramos116/" class="button">LinkedIn</a>
+              <a href="https://instagram.com/brendiiramos?" class="button">Instagram</a>
+        </div>
+    </div>
+  </section>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+    Coded by <a href="#">Brenda Ramos</a>.
+  </div>
+</body>
+</html>
